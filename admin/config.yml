@@ -1,0 +1,40 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/arin-temizlik-mersin
+  branch: main
+
+site_url: https://arintemizlikmersin.com
+display_url: https://arintemizlikmersin.com
+locale: tr
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site_content"
+    label: "Site İçeriği"
+    files:
+      - label: "Projeler ve Fotoğraflar"
+        name: "projects"
+        file: "content/projects.json"
+        format: "json"
+        fields:
+          - label: "Projeler"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.title}}"
+            add_to_top: true
+            fields:
+              - label: "Gösterim tipi"
+                name: "type"
+                widget: "select"
+                options:
+                  - { label: "Tek fotoğraf", value: "single" }
+                  - { label: "Öncesi / Sonrası", value: "before_after" }
+                default: "single"
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Kısa açıklama", name: "description", widget: "text" }
+              - { label: "Tek fotoğraf", name: "image", widget: "image", required: false }
+              - { label: "Öncesi fotoğrafı", name: "image_before", widget: "image", required: false }
+              - { label: "Sonrası fotoğrafı", name: "image_after", widget: "image", required: false }
+              - { label: "Fotoğraf açıklaması (SEO)", name: "alt", widget: "string", required: false }
