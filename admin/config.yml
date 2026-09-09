@@ -29,7 +29,8 @@ collections:
               - { label: "Şehir", name: "city", widget: "string" }
               - { label: "Telefon (görünen)", name: "phone_display", widget: "string" }
               - { label: "Telefon (+90...)", name: "phone_e164", widget: "string" }
-              - { label: "WhatsApp hazır mesajı", name: "whatsapp_message", widget: "text" }
+              - { label: "WhatsApp hazır mesaj kullan", name: "whatsapp_prefill_enabled", widget: "boolean", default: false, hint: "Kapalıysa WhatsApp boş mesaj ekranıyla açılır." }
+              - { label: "WhatsApp hazır mesajı", name: "whatsapp_message", widget: "text", required: false, hint: "Yalnızca üstteki seçenek açıksa kullanılır." }
               - { label: "Alt bilgi kısa açıklaması", name: "footer_tagline", widget: "string" }
               - { label: "Telif yazısı", name: "copyright", widget: "string" }
           - label: "Google / SEO"

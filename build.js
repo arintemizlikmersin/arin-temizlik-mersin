@@ -7,13 +7,13 @@ const read = p => fs.readFileSync(path.join(ROOT,p),'utf8');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 const attr = esc;
 const br = s => esc(s).replace(/\n/g,'<br>');
-const wa = (phone,msg) => `https://wa.me/${String(phone).replace(/\D/g,'')}?text=${encodeURIComponent(msg)}`;
+const wa = (phone,msg,enabled=true) => { const base=`https://wa.me/${String(phone).replace(/\D/g,'')}`; return enabled && String(msg||'').trim() ? `${base}?text=${encodeURIComponent(msg)}` : base; };
 const clean = p => String(p||'').replace(/^\//,'');
 const write = (name, content) => { const f=path.join(OUT,name); fs.mkdirSync(path.dirname(f),{recursive:true}); fs.writeFileSync(f,content); };
 const copyDir=(src,dst)=>{ if(!fs.existsSync(src)) return; fs.mkdirSync(dst,{recursive:true}); for(const e of fs.readdirSync(src,{withFileTypes:true})){ const a=path.join(src,e.name), b=path.join(dst,e.name); e.isDirectory()?copyDir(a,b):fs.copyFileSync(a,b); }};
 fs.rmSync(OUT,{recursive:true,force:true}); fs.mkdirSync(OUT,{recursive:true});
 const site=readJSON('content/site.json'); const projects=readJSON('content/projects.json').projects||[];
-const homeCss=read('src/home.css'); const svcCss=read('src/service.css'); const B=site.business; const W=wa(B.phone_e164,B.whatsapp_message);
+const homeCss=read('src/home.css'); const svcCss=read('src/service.css'); const B=site.business; const W=wa(B.phone_e164,B.whatsapp_message,B.whatsapp_prefill_enabled!==false);
 const serviceFiles=['insaat-sonrasi-temizlik-mersin','fabrika-endustriyel-temizlik-mersin','kurum-is-yeri-temizligi-mersin','merdiven-ortak-alan-temizligi-mersin','bos-daire-temizligi-mersin'];
 const svcData=Object.fromEntries(serviceFiles.map(n=>[n,readJSON(`content/services/${n}.json`)]));
 function brand(){return `${esc(B.brand)}<small>${esc(B.brand_city)}</small>`}

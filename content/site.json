@@ -8,7 +8,8 @@
     "phone_e164": "+905388243936",
     "whatsapp_message": "Merhaba, Arin Temizlik'ten hizmet hakkında bilgi almak istiyorum. Temizlenecek alanın video ve fotoğraflarını paylaşabilirim.",
     "footer_tagline": "İnşaat sonrası ve profesyonel kurumsal temizlik hizmetleri.",
-    "copyright": "© 2026 Arin Temizlik Mersin. Tüm hakları saklıdır."
+    "copyright": "© 2026 Arin Temizlik Mersin. Tüm hakları saklıdır.",
+    "whatsapp_prefill_enabled": false
   },
   "seo": {
     "title": "Mersin Temizlik Şirketi | Arin Temizlik Mersin",
