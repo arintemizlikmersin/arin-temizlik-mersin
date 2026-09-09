@@ -1,38 +1,23 @@
-ARİN TEMİZLİK MERSİN — KOLAY FOTOĞRAF YÖNETİMİ
+ARİN TEMİZLİK – TAM ADMİN YÖNETİMİ
 
-AMAÇ
-Kurulum tamamlandıktan sonra:
+Bu sürümde günlük site içerikleri /admin/ panelinden yönetilir.
+
+Yönetilebilir alanlar:
+- Ana sayfa başlıkları ve metinleri
+- Telefon ve WhatsApp bilgileri
+- Hizmet kartları
+- Hakkımızda ve çalışma süreci
+- Ana sayfa S.S.S.
+- Proje ve fotoğraflar
+- 5 hizmet sayfasının SEO başlığı, açıklaması, metinleri, kapsam maddeleri ve S.S.S.
+- Hizmet sayfalarının üst fotoğrafları
+
+Teknik not:
+Tasarım, sayfa düzeni ve yeni sayfa oluşturma gibi yapısal değişiklikler kod tarafında kalır. Bu sayede yanlışlıkla sitenin görünümü bozulmaz.
+
+Netlify build ayarı artık netlify.toml üzerinden otomatik gelir:
+Build command: node build.js
+Publish directory: dist
+
+Admin adresi:
 https://arintemizlikmersin.com/admin/
-adresinden siteye yeni proje/fotoğraf eklenebilecek.
-Fotoğraf seç -> başlık/açıklama yaz -> Yayınla.
-Netlify'a ZIP sürüklemek gerekmeyecek.
-
-ÖNEMLİ
-Bu paket GitHub tabanlı Decap CMS kullanır.
-Netlify Git Gateway yeni kurulumlar için artık önerilmediği için kullanılmamıştır.
-
-BİR KERELİK KURULUM
-1. Bir GitHub hesabı gerekir.
-2. Netlify'daki mevcut Arin Temizlik projesi bir GitHub deposuna bağlanır.
-   Netlify yolu:
-   Project configuration > Build & deploy > Continuous deployment > Repository
-   Burada “Push to new repository” kullanılabilir.
-3. GitHub deposunun adı: arin-temizlik-mersin
-4. admin/config.yml dosyasındaki:
-   YOUR_GITHUB_USERNAME/arin-temizlik-mersin
-   satırı gerçek GitHub kullanıcı adıyla değiştirilir.
-5. Netlify'da GitHub authentication provider yapılandırılır.
-6. Bundan sonra /admin/ sayfasından GitHub hesabıyla giriş yapılır.
-
-KULLANIM
-Site İçeriği > Projeler ve Fotoğraflar
-- Yeni kayıt ekle
-- “Tek fotoğraf” veya “Öncesi / Sonrası” seç
-- Fotoğrafı sürükle/bırak veya seç
-- Başlık ve kısa açıklama yaz
-- Publish / Yayınla
-
-NOT
-Mevcut 6 gerçek proje kaydı content/projects.json içine aktarılmıştır.
-Ana sayfadaki proje alanı bu JSON dosyasından otomatik yüklenir.
-JSON okunamazsa mevcut statik proje kartları yedek olarak görünmeye devam eder.

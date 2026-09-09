@@ -1,0 +1,150 @@
+{
+  "business": {
+    "brand": "ARİN TEMİZLİK",
+    "brand_city": "MERSİN",
+    "business_name": "Arin Temizlik Mersin",
+    "city": "Mersin",
+    "phone_display": "0538 824 39 36",
+    "phone_e164": "+905388243936",
+    "whatsapp_message": "Merhaba, Arin Temizlik'ten hizmet hakkında bilgi almak istiyorum. Temizlenecek alanın video ve fotoğraflarını paylaşabilirim.",
+    "footer_tagline": "İnşaat sonrası ve profesyonel kurumsal temizlik hizmetleri.",
+    "copyright": "© 2026 Arin Temizlik Mersin. Tüm hakları saklıdır."
+  },
+  "seo": {
+    "title": "Mersin Temizlik Şirketi | Arin Temizlik Mersin",
+    "description": "Arin Temizlik Mersin; inşaat sonrası temizlik, fabrika ve endüstriyel temizlik, kurum, iş yeri, merdiven ve ortak alan temizliği hizmetleri sunar.",
+    "social_title": "Mersin Temizlik Şirketi | Arin Temizlik Mersin",
+    "social_description": "Mersin'de inşaat sonrası, fabrika, kurum, iş yeri, merdiven ve ortak alan temizliği. Alanı değerlendiriyor, ihtiyaca göre çalışma planı oluşturuyoruz."
+  },
+  "hero": {
+    "eyebrow": "Profesyonel temizlik • Mersin",
+    "title": "Mekânı değil,\nstandardı temizliyoruz.",
+    "description": "İnşaat sonrası yapılardan fabrikalara, kurumlardan apartman ortak alanlarına kadar profesyonel temizlik hizmetleri. Her alanı kendi ihtiyacına göre değerlendiriyor, doğru ekip ve çalışma planıyla ilerliyoruz.",
+    "primary_button": "Çalışma Sürecimiz",
+    "secondary_button": "Keşif İçin İletişim",
+    "image": "/images/konut-projesi.jpg",
+    "image_card_title": "Sahadan gerçek projeler.",
+    "image_card_text": "Arin Temizlik Mersin'in tamamladığı farklı ölçeklerdeki temizlik çalışmalarından görüntüler."
+  },
+  "services_section": {
+    "eyebrow": "Uzmanlık alanlarımız",
+    "title": "Her alan aynı şekilde temizlenmez.",
+    "description": "Hizmeti standart paketlere sıkıştırmıyoruz. Alanın durumunu, yapılacak işlemleri ve işin kapsamını değerlendirerek uygun çalışma planını oluşturuyoruz.",
+    "items": [
+      {
+        "title": "İnşaat Sonrası Temizlik",
+        "description": "Yeni tamamlanan daire, bina, iş yeri ve projelerde inşaat sürecinden kalan yoğun toz, kir ve kalıntıların detaylı temizliği.",
+        "url": "insaat-sonrasi-temizlik-mersin.html"
+      },
+      {
+        "title": "Fabrika & Endüstriyel",
+        "description": "Fabrika, üretim alanı, depo ve geniş çalışma alanlarının ihtiyacına göre planlanan profesyonel temizlik hizmetleri.",
+        "url": "fabrika-endustriyel-temizlik-mersin.html"
+      },
+      {
+        "title": "Kurum & İş Yeri",
+        "description": "Kurumlar, işletmeler, ofisler ve ticari alanlar için düzenli veya dönemsel profesyonel temizlik hizmetleri.",
+        "url": "kurum-is-yeri-temizligi-mersin.html"
+      },
+      {
+        "title": "Merdiven & Ortak Alan",
+        "description": "Apartman ve site girişleri, merdivenler ve ortak kullanım alanlarının düzenli veya ihtiyaca yönelik temizliği.",
+        "url": "merdiven-ortak-alan-temizligi-mersin.html"
+      },
+      {
+        "title": "Boş Daire Temizliği",
+        "description": "Taşınma öncesi veya sonrası boş dairelerde, alanın durumuna göre planlanan detaylı temizlik hizmeti.",
+        "url": "bos-daire-temizligi-mersin.html"
+      }
+    ]
+  },
+  "featured": {
+    "eyebrow": "Öne çıkan hizmet",
+    "title": "İnşaat biter.\nDetaylar bizde başlar.",
+    "paragraphs": [
+      "İnşaat sonrası temizlik, standart bir günlük temizlikten farklıdır. Alanın yüzeyleri, kalan inşaat tozu ve kirin yoğunluğu, temizlenecek detaylar ve işin büyüklüğü birlikte değerlendirilmelidir.",
+      "Arin Temizlik olarak işe başlamadan önce alanı inceliyor; gerekli ekip, ekipman ve çalışma süresini işin gerçek ihtiyacına göre planlıyoruz."
+    ],
+    "bullets": [
+      "Daire, bina, iş yeri ve proje alanları",
+      "Alanın durumuna göre çalışma planı",
+      "Keşif veya video/görsel değerlendirmesi"
+    ],
+    "image": "/images/otel-projesi.jpg",
+    "caption": "Kurumsal proje • Mersin"
+  },
+  "process": {
+    "eyebrow": "Nasıl çalışıyoruz?",
+    "title": "Önce işi görüyoruz.",
+    "description": "Yalnızca metrekareye bakarak fiyat vermiyoruz. Doğru fiyatlandırma için önce yapılacak işi ve alanın mevcut durumunu anlamayı tercih ediyoruz.",
+    "steps": [
+      {
+        "title": "Bize ulaşın",
+        "description": "Temizlenecek alanın türünü, yaklaşık büyüklüğünü ve ihtiyacınızı kısaca anlatın."
+      },
+      {
+        "title": "Alanı inceleyelim",
+        "description": "Gerekli durumlarda yerinde keşif yapalım. Uygun işlerde WhatsApp üzerinden video ve fotoğrafları da değerlendirebiliriz."
+      },
+      {
+        "title": "İşi planlayalım",
+        "description": "Alan, kirlilik durumu, yapılacak işlemler, gerekli ekip ve çalışma süresini değerlendirelim."
+      },
+      {
+        "title": "Fiyatlandıralım",
+        "description": "İşin kapsamı netleştikten sonra sağlıklı ve yapılan işe uygun fiyatlandırmayı oluşturalım."
+      }
+    ],
+    "note_title": "Neden doğrudan fiyat vermiyoruz?",
+    "note_text": "Aynı büyüklükteki iki alanın temizlik ihtiyacı ve gereken emek birbirinden tamamen farklı olabilir. Bu nedenle işi görmeden yanıltıcı bir fiyat vermek yerine önce kapsamı belirliyoruz."
+  },
+  "about": {
+    "eyebrow": "Arin Temizlik Mersin",
+    "title": "Temizliğe iş olarak değil, teslim edilecek bir sonuç olarak bakıyoruz.",
+    "paragraphs": [
+      "Arin Temizlik, Mersin'de profesyonel temizlik hizmetleri sunan yerel bir işletmedir. İnşaat sonrası alanlardan fabrikalara, kurumlardan apartman ve ortak kullanım alanlarına kadar farklı ölçekteki temizlik ihtiyaçlarında hizmet veriyoruz.",
+      "Her işi aynı şekilde değerlendirmek yerine alanın durumuna, yapılacak işlemlere ve ihtiyaç duyulan ekibe göre çalışma planı oluşturuyoruz. Bu yaklaşım hem işin kapsamını doğru belirlememizi hem de müşterimize daha gerçekçi bir süreç sunmamızı sağlar."
+    ],
+    "promise": "Amacımız yalnızca temiz görünen bir alan bırakmak değil; yapılan işin sonunda müşterimizin gönül rahatlığıyla teslim alabileceği bir sonuç ortaya çıkarmaktır."
+  },
+  "projects_section": {
+    "eyebrow": "Sahadan",
+    "title": "Gerçek işler, gerçek sonuçlar.",
+    "description": "Bu bölümde stok görsel değil, Arin Temizlik Mersin ekibinin sahada gerçekleştirdiği çalışmalardan gerçek görüntüler yer alıyor."
+  },
+  "faq": {
+    "eyebrow": "Sık sorulan sorular",
+    "title": "Merak edilenler.",
+    "description": "İlk görüşmede en sık karşılaştığımız soruların kısa yanıtları.",
+    "items": [
+      {
+        "question": "Telefonla doğrudan fiyat alabilir miyim?",
+        "answer": "Temizlik ihtiyacı her alanda farklı olduğu için yalnızca metrekare üzerinden fiyatlandırma yapmıyoruz. Alanı yerinde gördükten veya uygun durumlarda video ve fotoğrafları inceledikten sonra işin kapsamına göre fiyatlandırma yapıyoruz."
+      },
+      {
+        "question": "WhatsApp'tan video ve fotoğraf gönderebilir miyim?",
+        "answer": "Evet. Temizlenecek alanı mümkün olduğunca detaylı gösterecek video ve fotoğrafları WhatsApp üzerinden gönderebilirsiniz. Görseller yeterli olmadığında yerinde keşif planlayabiliriz."
+      },
+      {
+        "question": "İnşaat sonrası daire temizliği yapıyor musunuz?",
+        "answer": "Evet. İnşaat sonrası temizlik temel hizmetlerimizden biridir. Yeni tamamlanan daire, bina, iş yeri ve proje alanlarını işin durumuna göre değerlendiriyoruz."
+      },
+      {
+        "question": "Eşyalı ev temizliği yapıyor musunuz?",
+        "answer": "Hayır. Hizmetlerimiz ağırlıklı olarak inşaat sonrası alanlar, fabrikalar, kurumlar, iş yerleri, apartmanlar, merdivenler ve ortak kullanım alanlarına yöneliktir."
+      },
+      {
+        "question": "Fabrika temizliği yapıyor musunuz?",
+        "answer": "Evet. Fabrika, üretim alanı ve depo gibi geniş alanlarda yapılacak çalışma incelendikten sonra gerekli ekip ve çalışma planı oluşturulur."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Arin Temizlik Mersin",
+    "title": "Temizlenecek alanı birlikte değerlendirelim.",
+    "description": "İhtiyacınızı bize anlatın. Gerekirse yerinde keşif planlayalım veya alanın video ve görsellerini WhatsApp üzerinden inceleyelim. İnceleme sonrasında işin kapsamını ve fiyatlandırmayı netleştirelim.",
+    "call_button": "Ara",
+    "whatsapp_button": "WhatsApp'tan Video / Fotoğraf Gönder",
+    "micro": "Fiyatlandırma, alanın yerinde görülmesi veya yeterli video/görsel incelemesi sonrasında yapılır."
+  }
+}

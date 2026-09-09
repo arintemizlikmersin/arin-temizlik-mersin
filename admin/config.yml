@@ -12,8 +12,123 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "site_content"
-    label: "Site İçeriği"
+    label: "Site Yönetimi"
     files:
+      - label: "Ana Sayfa ve İletişim"
+        name: "site"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Firma Bilgileri"
+            name: "business"
+            widget: "object"
+            fields:
+              - { label: "Logo Yazısı", name: "brand", widget: "string" }
+              - { label: "Logo Şehir", name: "brand_city", widget: "string" }
+              - { label: "Firma Adı", name: "business_name", widget: "string" }
+              - { label: "Şehir", name: "city", widget: "string" }
+              - { label: "Telefon (görünen)", name: "phone_display", widget: "string" }
+              - { label: "Telefon (+90...)", name: "phone_e164", widget: "string" }
+              - { label: "WhatsApp hazır mesajı", name: "whatsapp_message", widget: "text" }
+              - { label: "Alt bilgi kısa açıklaması", name: "footer_tagline", widget: "string" }
+              - { label: "Telif yazısı", name: "copyright", widget: "string" }
+          - label: "Google / SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Google başlığı", name: "title", widget: "string" }
+              - { label: "Google açıklaması", name: "description", widget: "text" }
+              - { label: "Sosyal paylaşım başlığı", name: "social_title", widget: "string" }
+              - { label: "Sosyal paylaşım açıklaması", name: "social_description", widget: "text" }
+          - label: "Ana Giriş Alanı"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+              - { label: "Ana başlık (satır atlamak için Enter)", name: "title", widget: "text" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+              - { label: "1. buton", name: "primary_button", widget: "string" }
+              - { label: "2. buton", name: "secondary_button", widget: "string" }
+              - { label: "Ana fotoğraf", name: "image", widget: "image" }
+              - { label: "Fotoğraf kartı başlığı", name: "image_card_title", widget: "string" }
+              - { label: "Fotoğraf kartı açıklaması", name: "image_card_text", widget: "text" }
+          - label: "Hizmetler Bölümü"
+            name: "services_section"
+            widget: "object"
+            fields:
+              - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+              - label: "Hizmet kartları"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Başlık", name: "title", widget: "string" }
+                  - { label: "Açıklama", name: "description", widget: "text" }
+                  - { label: "Sayfa adresi", name: "url", widget: "string" }
+          - label: "Öne Çıkan Hizmet"
+            name: "featured"
+            widget: "object"
+            fields:
+              - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "text" }
+              - { label: "Açıklama paragrafları", name: "paragraphs", widget: "list", field: { label: "Paragraf", name: "text", widget: "text" } }
+              - { label: "Maddeler", name: "bullets", widget: "list", field: { label: "Madde", name: "text", widget: "string" } }
+              - { label: "Fotoğraf", name: "image", widget: "image" }
+              - { label: "Fotoğraf alt yazısı", name: "caption", widget: "string" }
+          - label: "Çalışma Süreci"
+            name: "process"
+            widget: "object"
+            fields:
+              - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+              - label: "Adımlar"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Başlık", name: "title", widget: "string" }
+                  - { label: "Açıklama", name: "description", widget: "text" }
+              - { label: "Not başlığı", name: "note_title", widget: "string" }
+              - { label: "Not açıklaması", name: "note_text", widget: "text" }
+          - label: "Hakkımızda"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "text" }
+              - { label: "Paragraflar", name: "paragraphs", widget: "list", field: { label: "Paragraf", name: "text", widget: "text" } }
+              - { label: "Vurgu kutusu", name: "promise", widget: "text" }
+          - label: "Projeler Bölüm Başlığı"
+            name: "projects_section"
+            widget: "object"
+            fields:
+              - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+          - label: "Ana Sayfa S.S.S."
+            name: "faq"
+            widget: "object"
+            fields:
+              - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+              - label: "Sorular"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Soru", name: "question", widget: "string" }
+                  - { label: "Cevap", name: "answer", widget: "text" }
+          - label: "İletişim Bölümü"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+              - { label: "Arama butonu yazısı", name: "call_button", widget: "string" }
+              - { label: "WhatsApp butonu yazısı", name: "whatsapp_button", widget: "string" }
+              - { label: "Alt küçük not", name: "micro", widget: "text" }
       - label: "Projeler ve Fotoğraflar"
         name: "projects"
         file: "content/projects.json"
@@ -38,3 +153,153 @@ collections:
               - { label: "Öncesi fotoğrafı", name: "image_before", widget: "image", required: false }
               - { label: "Sonrası fotoğrafı", name: "image_after", widget: "image", required: false }
               - { label: "Fotoğraf açıklaması (SEO)", name: "alt", widget: "string", required: false }
+      - label: "İnşaat Sonrası Temizlik"
+        name: "insaat_sonrasi_temizlik_mersin"
+        file: "content/services/insaat-sonrasi-temizlik-mersin.json"
+        format: "json"
+        fields:
+          - { label: "Yönetim panelinde görünen ad", name: "label", widget: "string" }
+          - { label: "Google başlığı", name: "seo_title", widget: "string" }
+          - { label: "Google açıklaması", name: "seo_description", widget: "text" }
+          - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+          - { label: "Sayfa ana başlığı", name: "h1", widget: "string" }
+          - { label: "Giriş açıklaması", name: "intro", widget: "text" }
+          - { label: "Üst fotoğraf", name: "hero_image", widget: "image" }
+          - { label: "Fotoğraf açıklaması (SEO)", name: "hero_alt", widget: "string" }
+          - { label: "İçerik ana başlığı", name: "section_title", widget: "string" }
+          - label: "Açıklama bölümleri"
+            name: "blocks"
+            widget: "list"
+            fields:
+              - { label: "Alt başlık", name: "heading", widget: "string" }
+              - { label: "Metin", name: "body", widget: "text" }
+          - { label: "Kapsam kutusu başlığı", name: "scope_title", widget: "string" }
+          - { label: "Kapsamdaki maddeler", name: "scope", widget: "list", field: { label: "Madde", name: "text", widget: "string" } }
+          - { label: "Kapsam notu", name: "scope_note", widget: "text" }
+          - label: "Sık Sorulan Sorular"
+            name: "faq"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Soru", name: "question", widget: "string" }
+              - { label: "Cevap", name: "answer", widget: "text" }
+      - label: "Fabrika ve Endüstriyel Temizlik"
+        name: "fabrika_endustriyel_temizlik_mersin"
+        file: "content/services/fabrika-endustriyel-temizlik-mersin.json"
+        format: "json"
+        fields:
+          - { label: "Yönetim panelinde görünen ad", name: "label", widget: "string" }
+          - { label: "Google başlığı", name: "seo_title", widget: "string" }
+          - { label: "Google açıklaması", name: "seo_description", widget: "text" }
+          - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+          - { label: "Sayfa ana başlığı", name: "h1", widget: "string" }
+          - { label: "Giriş açıklaması", name: "intro", widget: "text" }
+          - { label: "Üst fotoğraf", name: "hero_image", widget: "image" }
+          - { label: "Fotoğraf açıklaması (SEO)", name: "hero_alt", widget: "string" }
+          - { label: "İçerik ana başlığı", name: "section_title", widget: "string" }
+          - label: "Açıklama bölümleri"
+            name: "blocks"
+            widget: "list"
+            fields:
+              - { label: "Alt başlık", name: "heading", widget: "string" }
+              - { label: "Metin", name: "body", widget: "text" }
+          - { label: "Kapsam kutusu başlığı", name: "scope_title", widget: "string" }
+          - { label: "Kapsamdaki maddeler", name: "scope", widget: "list", field: { label: "Madde", name: "text", widget: "string" } }
+          - { label: "Kapsam notu", name: "scope_note", widget: "text" }
+          - label: "Sık Sorulan Sorular"
+            name: "faq"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Soru", name: "question", widget: "string" }
+              - { label: "Cevap", name: "answer", widget: "text" }
+      - label: "Kurum ve İş Yeri Temizliği"
+        name: "kurum_is_yeri_temizligi_mersin"
+        file: "content/services/kurum-is-yeri-temizligi-mersin.json"
+        format: "json"
+        fields:
+          - { label: "Yönetim panelinde görünen ad", name: "label", widget: "string" }
+          - { label: "Google başlığı", name: "seo_title", widget: "string" }
+          - { label: "Google açıklaması", name: "seo_description", widget: "text" }
+          - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+          - { label: "Sayfa ana başlığı", name: "h1", widget: "string" }
+          - { label: "Giriş açıklaması", name: "intro", widget: "text" }
+          - { label: "Üst fotoğraf", name: "hero_image", widget: "image" }
+          - { label: "Fotoğraf açıklaması (SEO)", name: "hero_alt", widget: "string" }
+          - { label: "İçerik ana başlığı", name: "section_title", widget: "string" }
+          - label: "Açıklama bölümleri"
+            name: "blocks"
+            widget: "list"
+            fields:
+              - { label: "Alt başlık", name: "heading", widget: "string" }
+              - { label: "Metin", name: "body", widget: "text" }
+          - { label: "Kapsam kutusu başlığı", name: "scope_title", widget: "string" }
+          - { label: "Kapsamdaki maddeler", name: "scope", widget: "list", field: { label: "Madde", name: "text", widget: "string" } }
+          - { label: "Kapsam notu", name: "scope_note", widget: "text" }
+          - label: "Sık Sorulan Sorular"
+            name: "faq"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Soru", name: "question", widget: "string" }
+              - { label: "Cevap", name: "answer", widget: "text" }
+      - label: "Merdiven ve Ortak Alan Temizliği"
+        name: "merdiven_ortak_alan_temizligi_mersin"
+        file: "content/services/merdiven-ortak-alan-temizligi-mersin.json"
+        format: "json"
+        fields:
+          - { label: "Yönetim panelinde görünen ad", name: "label", widget: "string" }
+          - { label: "Google başlığı", name: "seo_title", widget: "string" }
+          - { label: "Google açıklaması", name: "seo_description", widget: "text" }
+          - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+          - { label: "Sayfa ana başlığı", name: "h1", widget: "string" }
+          - { label: "Giriş açıklaması", name: "intro", widget: "text" }
+          - { label: "Üst fotoğraf", name: "hero_image", widget: "image" }
+          - { label: "Fotoğraf açıklaması (SEO)", name: "hero_alt", widget: "string" }
+          - { label: "İçerik ana başlığı", name: "section_title", widget: "string" }
+          - label: "Açıklama bölümleri"
+            name: "blocks"
+            widget: "list"
+            fields:
+              - { label: "Alt başlık", name: "heading", widget: "string" }
+              - { label: "Metin", name: "body", widget: "text" }
+          - { label: "Kapsam kutusu başlığı", name: "scope_title", widget: "string" }
+          - { label: "Kapsamdaki maddeler", name: "scope", widget: "list", field: { label: "Madde", name: "text", widget: "string" } }
+          - { label: "Kapsam notu", name: "scope_note", widget: "text" }
+          - label: "Sık Sorulan Sorular"
+            name: "faq"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Soru", name: "question", widget: "string" }
+              - { label: "Cevap", name: "answer", widget: "text" }
+      - label: "Boş Daire Temizliği"
+        name: "bos_daire_temizligi_mersin"
+        file: "content/services/bos-daire-temizligi-mersin.json"
+        format: "json"
+        fields:
+          - { label: "Yönetim panelinde görünen ad", name: "label", widget: "string" }
+          - { label: "Google başlığı", name: "seo_title", widget: "string" }
+          - { label: "Google açıklaması", name: "seo_description", widget: "text" }
+          - { label: "Üst küçük yazı", name: "eyebrow", widget: "string" }
+          - { label: "Sayfa ana başlığı", name: "h1", widget: "string" }
+          - { label: "Giriş açıklaması", name: "intro", widget: "text" }
+          - { label: "Üst fotoğraf", name: "hero_image", widget: "image" }
+          - { label: "Fotoğraf açıklaması (SEO)", name: "hero_alt", widget: "string" }
+          - { label: "İçerik ana başlığı", name: "section_title", widget: "string" }
+          - label: "Açıklama bölümleri"
+            name: "blocks"
+            widget: "list"
+            fields:
+              - { label: "Alt başlık", name: "heading", widget: "string" }
+              - { label: "Metin", name: "body", widget: "text" }
+          - { label: "Kapsam kutusu başlığı", name: "scope_title", widget: "string" }
+          - { label: "Kapsamdaki maddeler", name: "scope", widget: "list", field: { label: "Madde", name: "text", widget: "string" } }
+          - { label: "Kapsam notu", name: "scope_note", widget: "text" }
+          - label: "Sık Sorulan Sorular"
+            name: "faq"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Soru", name: "question", widget: "string" }
+              - { label: "Cevap", name: "answer", widget: "text" }

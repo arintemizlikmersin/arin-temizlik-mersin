@@ -1,0 +1,51 @@
+{
+  "label": "Kurum ve İş Yeri Temizliği",
+  "seo_title": "Mersin Kurum ve İş Yeri Temizliği | Arin Temizlik",
+  "seo_description": "Mersin'de kurum, ofis, işletme ve iş yeri temizliği. Alanın yapısına göre düzenli veya dönemsel profesyonel temizlik planı.",
+  "eyebrow": "Kurum & iş yeri temizliği • Mersin",
+  "h1": "Mersin Kurum ve İş Yeri Temizliği",
+  "intro": "Ofis, kurum, işletme ve ticari alanlarda kullanım yoğunluğunu ve alanın ihtiyacını değerlendirerek düzenli veya dönemsel temizlik planı oluşturuyoruz.",
+  "hero_image": "/images/otel-projesi.jpg",
+  "hero_alt": "Mersin kurum ve iş yeri temizlik projesi",
+  "section_title": "Arin Temizlik Mersin ile planlı ve ihtiyaca uygun temizlik",
+  "blocks": [
+    {
+      "heading": "İşletmenin ihtiyacına göre planlama",
+      "body": "Kurum ve iş yerlerinde alanın büyüklüğü, kullanım yoğunluğu ve temizlenecek bölümler değerlendirilerek çalışma kapsamı oluşturulur."
+    },
+    {
+      "heading": "Düzenli veya dönemsel çalışma",
+      "body": "İhtiyaca göre düzenli temizlik veya dönemsel detaylı temizlik planı hazırlanabilir."
+    },
+    {
+      "heading": "Ön değerlendirme ve fiyatlandırma",
+      "body": "Gerekli durumlarda yerinde keşif yapıyor, uygun işlerde fotoğraf ve video üzerinden ön değerlendirme gerçekleştiriyoruz. Fiyatlandırma işin kapsamı netleştikten sonra yapılır."
+    }
+  ],
+  "scope_title": "Bu hizmet kapsamında",
+  "scope": [
+    "Kurum ve ofis alanları",
+    "İş yeri ve ticari alanlar",
+    "Düzenli veya dönemsel temizlik",
+    "İhtiyaca göre çalışma planı"
+  ],
+  "scope_note": "Not: Yapılacak işlemler alanın durumuna göre değişebilir. Fiyatlandırma, yerinde keşif veya yeterli fotoğraf/video incelemesinden sonra yapılır.",
+  "faq": [
+    {
+      "question": "İş yeri temizliği için keşif yapıyor musunuz?",
+      "answer": "Evet. İş yerinin büyüklüğü, kullanım yoğunluğu ve temizlik ihtiyacına göre yerinde keşif yapıyoruz. Uygun durumlarda fotoğraf veya video üzerinden de ön değerlendirme yapılabilir."
+    },
+    {
+      "question": "Kurum ve iş yeri temizliği fiyatı nasıl belirlenir?",
+      "answer": "Fiyatlandırma; alanın büyüklüğü, mevcut durumu, yapılacak işlemler, gerekli ekip ve çalışma süresi değerlendirilerek belirlenir. Bu nedenle yerinde keşif veya yeterli fotoğraf ve video incelemesinden sonra fiyatlandırma yapılır."
+    },
+    {
+      "question": "Hangi tür iş yerlerine temizlik hizmeti veriyorsunuz?",
+      "answer": "Ofis, kurum, işletme ve çeşitli ticari alanlarda ihtiyaca göre temizlik planlaması yapıyoruz. Yapılacak işlemler iş yerinin kullanım şekline ve alanın durumuna göre belirlenir."
+    },
+    {
+      "question": "Mersin'de hangi bölgelere hizmet veriyorsunuz?",
+      "answer": "Yenişehir, Mezitli, Toroslar ve Akdeniz başta olmak üzere Mersin genelinde kurum ve iş yeri temizliği hizmeti sunuyoruz."
+    }
+  ]
+}

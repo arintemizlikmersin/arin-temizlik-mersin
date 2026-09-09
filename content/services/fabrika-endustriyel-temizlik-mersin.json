@@ -1,0 +1,59 @@
+{
+  "label": "Fabrika ve Endüstriyel Temizlik",
+  "seo_title": "Mersin Fabrika ve Endüstriyel Temizlik | Arin Temizlik",
+  "seo_description": "Mersin'de fabrika, üretim alanı, depo ve geniş çalışma alanları için ihtiyaca göre planlanan profesyonel endüstriyel temizlik hizmeti.",
+  "eyebrow": "Fabrika & endüstriyel temizlik • Mersin",
+  "h1": "Mersin Fabrika ve Endüstriyel Temizlik",
+  "intro": "Fabrika, üretim alanı, depo ve geniş çalışma sahalarında alanın kullanım biçimine ve temizlik ihtiyacına göre çalışma planı oluşturuyoruz.",
+  "hero_image": "/images/otel-projesi.jpg",
+  "hero_alt": "Mersin fabrika ve endüstriyel temizlik",
+  "section_title": "Arin Temizlik Mersin ile planlı ve ihtiyaca uygun temizlik",
+  "blocks": [
+    {
+      "heading": "Her endüstriyel alan aynı değildir",
+      "body": "Üretim alanının yapısı, yüzey türleri, kirin yoğunluğu ve çalışmanın yapılacağı zaman aralığı ihtiyaçları değiştirir. Bu nedenle standart paket yerine alanı değerlendirerek ilerliyoruz."
+    },
+    {
+      "heading": "Planlı ekip çalışması",
+      "body": "Geniş alanlarda yapılacak işlemleri, gerekli ekibi ve çalışma süresini önceden belirlemek işin verimli ilerlemesine yardımcı olur."
+    },
+    {
+      "heading": "Keşif ve fiyatlandırma",
+      "body": "Fabrika ve geniş işletme alanlarında mümkün olduğunda yerinde keşif tercih ediyoruz. İşin kapsamı netleştikten sonra fiyatlandırma oluşturuyoruz."
+    },
+    {
+      "heading": "Fabrika ve endüstriyel temizlik süreci nasıl ilerler?",
+      "body": "Temizlik öncesinde tesisin kullanım alanlarını, yüzeylerini ve kirlilik durumunu değerlendiriyoruz. Gerektiğinde yerinde keşif yapıyor veya yeterli fotoğraf ve videolar üzerinden çalışma kapsamını belirliyoruz. Yapılacak işlemler netleştikten sonra alana uygun bir çalışma planı oluşturuyoruz."
+    },
+    {
+      "heading": "Endüstriyel alanlarda planlama",
+      "body": "Fabrika ve endüstriyel alanlarda temizlik ihtiyacı, standart iş yeri temizliğinden farklı olabilir. Üretim alanları, zeminler, ortak kullanım bölümleri ve ulaşılabilir yüzeyler alanın koşullarına göre planlı şekilde temizlenir. Çalışma kapsamı tesisin faaliyet yapısına ve ihtiyaçlarına göre belirlenir."
+    },
+    {
+      "heading": "Mersin'de hangi alanlara hizmet veriyoruz?",
+      "body": "Mersin genelinde fabrika, üretim tesisi, depo, atölye ve benzeri endüstriyel alanların temizlik ihtiyaçlarına yönelik hizmet veriyoruz. Yenişehir, Mezitli, Toroslar ve Akdeniz başta olmak üzere çalışma yapılacak alanın konumuna ve durumuna göre planlama gerçekleştiriyoruz."
+    }
+  ],
+  "scope_title": "Bu hizmet kapsamında",
+  "scope": [
+    "Fabrika ve üretim alanları",
+    "Depo ve geniş çalışma alanları",
+    "Dönemsel detaylı temizlik",
+    "İhtiyaca göre ekip planlaması"
+  ],
+  "scope_note": "Not: Yapılacak işlemler alanın durumuna göre değişebilir. Fiyatlandırma, yerinde keşif veya yeterli fotoğraf/video incelemesinden sonra yapılır.",
+  "faq": [
+    {
+      "question": "Fabrika temizliği için keşif yapılıyor mu?",
+      "answer": "Evet. Alanın büyüklüğü ve temizlik ihtiyacına göre yerinde keşif yapılabilir. Uygun durumlarda fotoğraf ve videolar üzerinden de ön değerlendirme gerçekleştirilebilir."
+    },
+    {
+      "question": "Fabrika temizliği için fiyat nasıl belirleniyor?",
+      "answer": "Fiyatlandırma; alanın büyüklüğü, mevcut durumu, yapılacak işlemler ve gerekli ekip dikkate alınarak belirlenir. Bu nedenle alan görülmeden veya yeterli fotoğraf ve video incelenmeden fiyatlandırma yapılmaz."
+    },
+    {
+      "question": "Hangi tür alanlarda temizlik yapılıyor?",
+      "answer": "Fabrika ve üretim alanlarının yanı sıra depo, geniş çalışma alanları ve ortak kullanım alanlarında ihtiyaca göre temizlik planlaması yapılabilir."
+    }
+  ]
+}
