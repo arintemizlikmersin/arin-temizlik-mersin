@@ -52,7 +52,16 @@
       "image": "/images/otel-projesi.jpg",
       "image_before": "",
       "image_after": "",
-      "alt": "Mersin kurumsal işletme temizlik projesi"
+       "alt": "Mersin kurumsal işletme temizlik projesi"
+    },
+    {
+      "type": "single",
+      "title": "Fabrika Dış Cephe Temizliği",
+      "description": "Endüstriyel yapıda dış cephe temizlik uygulamasından önce ve sonra görünümü.",
+      "image": "/images/fabrika-dis-cephe-temizligi-mersin.jpg",
+      "image_before": "",
+      "image_after": "",
+      "alt": "Mersin fabrika dış cephe temizliği öncesi ve sonrası"
     }
   ]
 }
