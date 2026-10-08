@@ -1,24 +1,6 @@
 {
   "projects": [
     {
-      "type": "single",
-      "title": "Toplu Konut & Ortak Alan Temizliği",
-      "description": "Çok daireli projelerde kat holleri, merdivenler ve ortak kullanım alanlarında kapsamlı temizlik çalışmaları.",
-      "image": "/images/konut-projesi.jpg",
-      "image_before": "",
-      "image_after": "",
-      "alt": "Mersin'de büyük ölçekli konut projesi temizlik çalışması"
-    },
-    {
-      "type": "single",
-      "title": "İnşaat Sonrası Detay Temizliği",
-      "description": "Yeni tamamlanan yaşam alanlarında yüzey, zemin, cam ve detayların teslim öncesi temizliği.",
-      "image": "/images/balkon-temizlik.jpg",
-      "image_before": "",
-      "image_after": "",
-      "alt": "Mersin inşaat sonrası balkon ve cam temizliği"
-    },
-    {
       "type": "before_after",
       "title": "Mutfak • Öncesi / Sonrası",
       "description": "İnşaat kalıntıları ve yoğun tozun ardından yüzeylerin detaylı şekilde temizlenmesi.",
@@ -35,24 +17,6 @@
       "image_before": "/images/banyo-once.jpg",
       "image_after": "/images/banyo-sonra.jpg",
       "alt": "İnşaat sonrası banyo temizliği"
-    },
-    {
-      "type": "before_after",
-      "title": "Yoğun Kir • Öncesi / Sonrası",
-      "description": "Zorlu kir ve birikintilerin bulunduğu alanlarda ihtiyaca göre planlanan detaylı temizlik uygulaması.",
-      "image": "",
-      "image_before": "/images/yogun-kir-once.jpg",
-      "image_after": "/images/yogun-kir-sonra.jpg",
-      "alt": "Yoğun kirli yüzey temizlik çalışması"
-    },
-    {
-      "type": "single",
-      "title": "Kurumsal & İşletme Temizliği",
-      "description": "İşletme ve kurumsal alanlarda, alanın yapısına ve çalışma kapsamına göre planlanan profesyonel temizlik.",
-      "image": "/images/otel-projesi.jpg",
-      "image_before": "",
-      "image_after": "",
-       "alt": "Mersin kurumsal işletme temizlik projesi"
     },
     {
       "type": "single",
