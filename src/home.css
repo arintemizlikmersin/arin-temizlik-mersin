@@ -25,3 +25,9 @@ section{padding:90px 0}.section-head{display:flex;justify-content:space-between;
 .project-card .before-after img{height:315px;object-fit:cover;width:100%}
 @media(max-width:1000px){.projects{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.projects{grid-template-columns:1fr}.project-card .before-after{grid-template-columns:repeat(2,minmax(0,1fr))}.project-card .before-after img{height:315px}}
+
+/* Öncesi / Sonrası etiketleri: fotoğrafın üzerinde, kırpılmadan görünür */
+.project-card .before-after figure{position:relative;overflow:hidden;min-width:0}
+.project-card .before-after figcaption{position:absolute;top:12px;bottom:auto;left:10px;z-index:5;display:block;max-width:calc(100% - 18px);padding:8px 10px;border-radius:5px;background:#08263f;color:#fff;font-size:11px;font-weight:900;line-height:1.15;letter-spacing:0;white-space:nowrap;overflow:visible}
+.project-card .before-after figure:nth-child(2) figcaption{background:#0874bc}
+@media(max-width:650px){.project-card .before-after figcaption{top:8px;left:6px;padding:6px;font-size:10px}}
