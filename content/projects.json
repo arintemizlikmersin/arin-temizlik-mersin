@@ -11,12 +11,48 @@
     },
     {
       "type": "before_after",
+      "title": "Mutfak • Yeni Çalışma",
+      "description": "İnşaat sonrası mutfak temizliği; çalışma öncesi ve sonrası gerçek görüntüler.",
+      "image": "",
+      "image_before": "/images/foto-1.jpg",
+      "image_after": "/images/foto-7.jpg",
+      "alt": "Mersin inşaat sonrası mutfak temizliği yeni çalışma"
+    },
+    {
+      "type": "before_after",
       "title": "Banyo • Öncesi / Sonrası",
       "description": "İnşaat sürecinden kalan toz, ambalaj ve kalıntıların temizlenerek alanın kullanıma hazır hale getirilmesi.",
       "image": "",
       "image_before": "/images/banyo-once.jpg",
       "image_after": "/images/banyo-sonra.jpg",
       "alt": "İnşaat sonrası banyo temizliği"
+    },
+    {
+      "type": "before_after",
+      "title": "Balkon • Öncesi / Sonrası",
+      "description": "Balkon yüzeylerinin inşaat sonrası temizliği.",
+      "image": "",
+      "image_before": "/images/foto-2.jpg",
+      "image_after": "/images/foto-3.jpg",
+      "alt": "Mersin inşaat sonrası balkon temizliği"
+    },
+    {
+      "type": "before_after",
+      "title": "Tuvalet • Öncesi / Sonrası",
+      "description": "İnşaat sonrası tuvalet alanının detaylı temizliği.",
+      "image": "",
+      "image_before": "/images/foto-4.jpg",
+      "image_after": "/images/foto-8.jpg",
+      "alt": "Mersin inşaat sonrası tuvalet temizliği"
+    },
+    {
+      "type": "before_after",
+      "title": "Zemin • Öncesi / Sonrası",
+      "description": "Zemin üzerindeki inşaat kalıntılarının temizlenmesi.",
+      "image": "",
+      "image_before": "/images/foto-6.jpg",
+      "image_after": "/images/foto-5.jpg",
+      "alt": "Mersin inşaat sonrası zemin temizliği"
     },
     {
       "type": "single",
