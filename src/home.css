@@ -17,3 +17,11 @@ section{padding:90px 0}.section-head{display:flex;justify-content:space-between;
 /* Üçlü proje galerisi: tablet ve mobil görünüm */
 @media(max-width:1000px){.projects{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.projects{grid-template-columns:1fr}.project-card .before-after{grid-template-columns:repeat(2,minmax(0,1fr))}.project-card .before-after img{height:250px}}
+
+/* Onaylanan büyük fotoğraflı galeri */
+.projects{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.project-card .project-head{padding:16px 14px 12px}
+.project-card .project-head h3{font-size:19px}
+.project-card .before-after img{height:315px;object-fit:cover;width:100%}
+@media(max-width:1000px){.projects{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.projects{grid-template-columns:1fr}.project-card .before-after{grid-template-columns:repeat(2,minmax(0,1fr))}.project-card .before-after img{height:315px}}
